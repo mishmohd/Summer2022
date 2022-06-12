@@ -34,3 +34,8 @@ class InValidation:
                 vIsValid = True
         return vIsValid
 
+    def ValidateList(self):  # Validate if the argument is a list
+        vIsValid = False
+        if isinstance(self, list):
+            vIsValid = True
+        return vIsValid
